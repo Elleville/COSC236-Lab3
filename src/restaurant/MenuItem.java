@@ -6,7 +6,7 @@ public class MenuItem {
 
     public MenuItem(String name, double price) {
         this.name = name;
-        this.price = price;
+        this.priceInDollars = priceInDollars;
     }
 
     public String getName() {
@@ -14,6 +14,6 @@ public class MenuItem {
     }
 
     public double getPrice() {
-        return price;
+        return priceInDollars;
     }
 }

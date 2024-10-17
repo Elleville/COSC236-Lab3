@@ -4,7 +4,7 @@ public class MenuItem {
     private String name;
     private double priceInDollars;
 
-    public MenuItem(String name, double price) {
+    public MenuItem(String name, double priceInDollars) {
         this.name = name;
         this.priceInDollars = priceInDollars;
     }

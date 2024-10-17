@@ -9,12 +9,12 @@ public class Customer {
         this.order = new Order();  // Collaborating with Order class
     }
 
-    public void addMenuItemToOrder(MenuItem item) {
+    public void addToOrder(MenuItem item) {
         order.addItem(item);  // Collaborating with Order to add items
     }
 
     public void placeOrder() {
-        System.out.println("Customer: " + name);
+    	System.out.println("Customer: " + name);
         order.printOrderDetails();  // Collaborating with Order to display order details
     }
 }

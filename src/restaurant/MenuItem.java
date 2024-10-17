@@ -2,7 +2,7 @@ package restaurant;
 // MenuItem class
 public class MenuItem {
     private String name;
-    private double price;
+    private double priceInDollars;
 
     public MenuItem(String name, double price) {
         this.name = name;
